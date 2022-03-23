@@ -1,0 +1,31 @@
+### 1er recherche 
+GET  https://http-practice.herokuapp.com/wilders
+
+### 1er recherche 
+GET  https://http-practice.herokuapp.com/wilders?language=PHP&page=2
+
+### nouveau+3 wilder JSON
+POST https://http-practice.herokuapp.com/wilders
+Content-Type: application/json
+
+{
+  "name": "Adrien",
+  "language": "JavaScript"
+}
+
+
+
+### trouer mon wilder
+GET  https://http-practice.herokuapp.com/wilders/1646027
+
+
+### modifier le user que j'ai crée
+PUT  https://http-practice.herokuapp.com/wilders/1646027
+Content-Type: application/json
+
+{
+  "name": "Adrien",
+  "language": "JavaScript"
+}
+### suprimer u wilder
+DELETE https://http-practice.herokuapp.com/wilders/1646027
